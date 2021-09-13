@@ -16,6 +16,6 @@ public class App
         System.out.print("What is the exchange rate? ");
         double exchange_rate = input.nextDouble();
 
-        System.out.printf("%.02f euros at an exchange rate of %.4f is%n%.2f U.S. dollars.", euros, exchange_rate, euros * exchange_rate);
+        System.out.printf("%.2f euros at an exchange rate of %.4f is%n%.2f U.S. dollars.", euros, exchange_rate, euros * exchange_rate);
     }
 }
